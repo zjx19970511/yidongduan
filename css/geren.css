@@ -1,0 +1,61 @@
+/*
+* @Author: 张俊祥
+* @Date:   2018-11-12 15:47:25
+* @Last Modified by:   张俊祥
+* @Last Modified time: 2018-11-12 16:29:36
+*/
+header{
+	width: 100%;
+	height: 1.9rem;
+	background: #f6c758;
+	padding: 0.24rem;
+}
+header .top{
+	width: 100%;
+	height: 0.4rem;
+/* 	background: red; */
+	margin-right: 0;
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 0 0.24rem;
+}
+header .top h5{
+	font-size: 0.24rem;
+	color: #fff;
+	font-weight: normal;
+}
+header .top i{
+	font-size: 0.35rem;
+	color: #fff;
+	line-height: 100%;
+	margin-right: 0.2rem;
+}
+header .bottom{
+	width: 100%;
+	height: 1rem;
+/* 	background: pink; */
+	display: flex;
+	flex-direction: row;
+	padding: 0 0.24rem;
+	padding-top: 0.05rem;
+}
+header .bottom .left{
+	width: 0.89rem;
+	height: 0.89rem;
+	background: red;
+	border-radius: 50%;
+	background-image: url('../img/kd.jpg');
+	background-size: cover;
+}
+header .bottom .tleet{
+	width: 1.2rem;
+	height: 100%;
+	margin-left: 0.2rem;
+	
+/* 	background: yellow; */
+}
+header .bottom .tleet h1{
+	font-size: 0.3rem;
+	color: #fff;
+	font-weight: normal;
+}
